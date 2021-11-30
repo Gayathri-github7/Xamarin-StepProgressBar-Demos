@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:progressBar="clr-namespace:Syncfusion.XForms.ProgressBar;assembly=Syncfusion.SfProgressBar.XForms"
+             x:Class="StepProgressBar.StepProgressBar">
+    <ContentPage.Content>
+        <Grid>
+            <progressBar:SfStepProgressBar HorizontalOptions="Center" VerticalOptions="Center">
+                <progressBar:StepView PrimaryText="Step 1" />
+                <progressBar:StepView PrimaryText="Step 2" />
+                <progressBar:StepView PrimaryText="Step 3" />
+                <progressBar:StepView PrimaryText="Step 4" Status="InProgress" />
+                <progressBar:StepView PrimaryText="Step 5" />
+            </progressBar:SfStepProgressBar>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
